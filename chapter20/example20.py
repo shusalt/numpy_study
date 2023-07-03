@@ -41,13 +41,13 @@ if __name__ == '__main__':
 
     '''副本和深拷贝'''
     # a=np.array([[10,10],[2,3],[4,5]])
-    # print('数组a:')
-    # print(a)
-    # print('创建a的深层副本')
-    # b=a.copy()
-    # print(b)
-    # print(b is a)
-    # b[0,0]=100
-    # print(b)
-    # print(a)
+    #     # print('数组a:')
+    #     # print(a)
+    #     # print('创建a的深层副本')
+    #     # b=a.copy()
+    #     # print(b)
+    #     # print(b is a)
+    #     # b[0,0]=100
+    #     # print(b)
+    #     # print(a)
 
