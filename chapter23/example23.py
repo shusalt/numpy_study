@@ -1,4 +1,23 @@
 import numpy as np
 '''Numpy IO'''
 if __name__ == '__main__':
-    pass
+    '''numpy.save() --> 将数组保存到以.npy为扩展名的文件中'''
+    # a=np.array([1,2,3,4,5])
+    # np.save('../data/outfile.npf',a)
+
+    '''numpy.load() --> 数组加载，加载.npy文件'''
+    # print(np.load('../data/outfile.npf.npy'))
+
+    '''numpy.savez --> 将多个数组保存到以npz为扩展名的文件中'''
+    a=np.array([[1,2,3],[4,5,6]])
+    b=np.arange(0,1.0,0.1)
+    c=np.sin(b)
+    print(a)
+    print(b)
+    print(c)
+    np.savez("runoob.npz",a,b,sin_array=c)
+    r=np.load("runoob.npz")
+    print(r.files)
+    print(r["arr_0"])
+    print(r["arr_1"])
+    print(r["sin_array"])
