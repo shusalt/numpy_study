@@ -54,3 +54,19 @@ if __name__ == '__main__':
     print(a7)
     print(a8)
     print(np.dot(a7,a8))
+
+
+    '''求解线性方程组'''
+    print('a矩阵')
+    a10=np.array([[1,1,1],[0,2,5],[2,5,-1]])
+    print(a10)
+    print('a的逆矩阵')
+    a10_inv=np.linalg.inv(a10)
+    print(a10_inv)
+
+    print('b矩阵')
+    b10=np.array([[6],[-4],[27]])
+    print(b)
+
+    print('求解线性方程组，x=a^(-1)b')
+    print(np.linalg.solve(a10,b10))
