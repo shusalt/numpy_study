@@ -35,9 +35,9 @@ if __name__ == '__main__':
     '''
     使用delimiter参数
     '''
-    import numpy as np
-
-    a=np.arange(0,10,0.5).reshape(4,-1)
-    np.savetxt('../data/out2.txt',a,fmt="%d",delimiter=",")
-    b=np.loadtxt('../data/out2.txt',delimiter=",")
-    print(b)
+    # import numpy as np
+    #
+    # a=np.arange(0,10,0.5).reshape(4,-1)
+    # np.savetxt('../data/out2.txt',a,fmt="%d",delimiter=",")
+    # b=np.loadtxt('../data/out2.txt',delimiter=",")
+    # print(b)
