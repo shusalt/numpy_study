@@ -1,7 +1,8 @@
 import numpy as np
 '''Numpy 线性代数'''
 if __name__ == '__main__':
-    '''矩阵的点积 numpy.dot(a,b,out=none)'''
+
+    # '''矩阵的点积 numpy.dot(a,b,out=none)'''
     a=np.array([[1,2],[3,4]])
     b=np.array([[11,22],[33,44]])
     print('矩阵的点积（叉乘）')
